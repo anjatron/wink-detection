@@ -1,0 +1,10 @@
+pos/blacknwhite.jpg
+pos/cigarwink.jpg
+pos/dollywin.jpg
+pos/flirtwink.jpg
+pos/hillary.jpg
+pos/obama.jpg
+pos/putin.jpg
+pos/whiteguy.jpg
+pos/womanwinking.jpg
+pos/dunam.JPG
