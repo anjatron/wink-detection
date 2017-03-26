@@ -45,14 +45,23 @@ Both can be termintated with key input or ctrl c.
 CASCADE TRAINING COMMANDS
 -------------------------
 opencv_createsamples -img posiris/206110702_babecf94bf.jpg -bg negatives.txt -info crop1.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/beautiful-eyes-9.jpg -bg negatives.txt -info crop2.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/cs-eye-health-watery-eyes-722x406.jpg -bg negatives.txt -info crop3.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/dolly-iris.jpg -bg negatives.txt -info crop4.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/eyes-945248_960_720.jpg -bg negatives.txt -info crop5.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/eyes-brown.jpg -bg negatives.txt -info crop6.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/fringe-iris.JPG -bg negatives.txt -info crop7.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/imgres.jpg -bg negatives.txt -info crop8.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/Picture_of_brown_eyes.jpg -bg negatives.txt -info crop9.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
+
 opencv_createsamples -img posiris/women-wink-iris.jpg -bg negatives.txt -info crop10.txt -num 10 -w 10 -h 20 -maxxangle 0 -maxyangle 0 -maxzangle 0 -bgcolor 255 -bgthresh 10
 
 cat crop1.txt crop2.txt crop3.txt crop4.txt crop5.txt crop6.txt crop7.txt crop8.txt crop9.txt crop10.txt > crop.txt
